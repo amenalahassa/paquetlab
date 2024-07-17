@@ -27,3 +27,20 @@ jupyter
 notebook
 ipython
 ipywidgets
+
+# Data Manipulation
+pandas
+numpy
+
+timm==0.4.5
+transformers==4.6
+nms==0.1.6
+bytetracker
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+opencv-python
+
+

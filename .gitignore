@@ -1,13 +1,5 @@
 x_env/
-.bash_history 
-.bashrc
-.cache/
-.config/
-.ipynb_checkpoints/
-.ipython/
-.jupyter/
-.local/
-.viminfo
-datasets/
-.ssh
+workspace/datasets/
+workspace/jupiter_env/
+workspace/repos/
 .*
