@@ -9,3 +9,5 @@ x_env/
 .local/
 .viminfo
 datasets/
+.ssh
+.*
