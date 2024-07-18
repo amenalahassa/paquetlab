@@ -2,4 +2,6 @@ x_env/
 workspace/datasets/
 workspace/jupiter_env/
 workspace/repos/
+workspace/training_log/
+workspace/models/
 .*
