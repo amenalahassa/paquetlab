@@ -1,5 +1,4 @@
-###   0.992      0.778      0.803      0.503
-### 0.992      0.778      0.803      0.503
+
 # hsv_h: 0.015 # (float) image HSV-Hue augmentation (fraction)
 # hsv_s: 0.7 # (float) image HSV-Saturation augmentation (fraction)
 # hsv_v: 0.4 # (float) image HSV-Value augmentation (fraction)
@@ -18,7 +17,11 @@
 # erasing: 0.4 # (float) probability of random erasing during classification training (0-0.9), 0 means no erasing, must be less than 1.0.
 # crop_fraction: 1.0 # (float) image crop fraction for classification (0.1-1), 1.0 means no crop, must be greater than 0.
 
-# augmentations:
+### Box(P          R      mAP50  mAP50-95):
+### 0.992      0.778      0.803      0.503
+
+
+
 # hsv_h: 0.3 # image HSV-Hue augmentation (fraction)
 # hsv_s: 0.3  # image HSV-Saturation augmentation (fraction)
 # hsv_v: 0.5  # image HSV-Value augmentation (fraction)
@@ -300,18 +303,107 @@
 
 # #  0.983      0.667      0.851       0.48
 
-degrees: 0  # image rotation (+/- deg)
-translate: 0.5  # image translation (+/- fraction)
-fliplr: 0.8  # image flip left-right (probability)
-scale: 0.5  # image scale (+/- gain)
-shear: 0.5  # image shear (+/- deg)
+# degrees: 0  # image rotation (+/- deg)
+# translate: 0.5  # image translation (+/- fraction)
+# fliplr: 0.8  # image flip left-right (probability)
+# scale: 0.5  # image scale (+/- gain)
+# shear: 0.5  # image shear (+/- deg)
 
-hsv_h: 0.8 # image HSV-Hue augmentation (fraction)
-hsv_s: 0  # image HSV-Saturation augmentation (fraction)
-hsv_v: 0  # image HSV-Value augmentation (fraction)
+# hsv_h: 0.8 # image HSV-Hue augmentation (fraction)
+# hsv_s: 0  # image HSV-Saturation augmentation (fraction)
+# hsv_v: 0  # image HSV-Value augmentation (fraction)
 
-mosaic: 1  # image mosaic (probability)
+# mosaic: 1  # image mosaic (probability)
 
-mixup: 0.0  # image mixup (probability)
-perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
-flipud: 0.0  # image flip up-down (probability)
+# mixup: 0.0  # image mixup (probability)
+# perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+# flipud: 0.0  # image flip up-down (probability)
+
+# degrees: 0  # image rotation (+/- deg)
+# translate: 0.5  # image translation (+/- fraction)
+# fliplr: 0.8  # image flip left-right (probability)
+
+# hsv_h: 0 # image HSV-Hue augmentation (fraction)
+# hsv_s: 0  # image HSV-Saturation augmentation (fraction)
+# hsv_v: 0  # image HSV-Value augmentation (fraction)
+# scale: 0.3  # image scale (+/- gain)
+# shear: 0.5  # image shear (+/- deg)
+# mosaic: 1  # image mosaic (probability)
+
+# mixup: 0.0  # image mixup (probability)
+# perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+# flipud: 0.0  # image flip up-down (probability)
+
+# 0.999      0.889      0.975      0.562
+
+# -------
+
+# degrees: 15  # image rotation (+/- deg)
+# fliplr: 0.8  # image flip left-right (probability)
+# hsv_h: 0.8 # image HSV-Hue augmentation (fraction)
+# hsv_s: 0  # image HSV-Saturation augmentation (fraction)
+# hsv_v: 0  # image HSV-Value augmentation (fraction)
+
+# mosaic: 1  # image mosaic (probability)
+
+# mixup: 0.0  # image mixup (probability)
+# perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+# flipud: 0.0  # image flip up-down (probability)
+# translate: 0  # image translation (+/- fraction)
+# scale: 0  # image scale (+/- gain)
+# shear: 0  # image shear (+/- deg)
+
+# 0.626      0.556      0.617       0.36
+
+# degrees: 15  # image rotation (+/- deg)
+# fliplr: 0.8  # image flip left-right (probability)
+# hsv_h: 0.8 # image HSV-Hue augmentation (fraction)
+# hsv_s: 0.8  # image HSV-Saturation augmentation (fraction)
+# hsv_v: 0.8 # image HSV-Value augmentation (fraction)
+
+# mosaic: 1  # image mosaic (probability)
+
+# mixup: 0.0  # image mixup (probability)
+# perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+# flipud: 0.0  # image flip up-down (probability)
+# translate: 0  # image translation (+/- fraction)
+# scale: 0  # image scale (+/- gain)
+# shear: 0  # image shear (+/- deg)
+
+# # 0.825      0.556      0.509      0.314
+
+# degrees: 15  # image rotation (+/- deg)
+# fliplr: 0.8  # image flip left-right (probability)
+# hsv_h: 0 # image HSV-Hue augmentation (fraction)
+# hsv_s: 0.8  # image HSV-Saturation augmentation (fraction)
+# hsv_v: 0 # image HSV-Value augmentation (fraction)
+
+# mosaic: 1  # image mosaic (probability)
+
+# mixup: 0.0  # image mixup (probability)
+# perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+# flipud: 0.0  # image flip up-down (probability)
+# translate: 0  # image translation (+/- fraction)
+# scale: 0  # image scale (+/- gain)
+# shear: 0  # image shear (+/- deg)
+
+# # 0.825      0.556      0.509      0.314
+
+hsv_h: 0 # (float) image HSV-Hue augmentation (fraction)
+hsv_s: 0 # (float) image HSV-Saturation augmentation (fraction)
+hsv_v: 0 # (float) image HSV-Value augmentation (fraction)
+degrees: 0.0 # (float) image rotation (+/- deg)
+translate: 0 # (float) image translation (+/- fraction)
+scale: 0 # (float) image scale (+/- gain)
+shear: 0.0 # (float) image shear (+/- deg)
+perspective: 0.0 # (float) image perspective (+/- fraction), range 0-0.001
+flipud: 0.0 # (float) image flip up-down (probability)
+fliplr: .8 # (float) image flip left-right (probability)
+bgr: 0.0 # (float) image channel BGR (probability)
+mosaic: 0 # (float) image mosaic (probability)
+mixup: 0.0 # (float) image mixup (probability)
+copy_paste: 0.0 # (float) segment copy-paste (probability)
+auto_augment: randaugment # (str) auto augmentation policy for classification (randaugment, autoaugment, augmix)
+erasing: 0 # (float) probability of random erasing during classification training (0-0.9), 0 means no erasing, must be less than 1.0.
+crop_fraction: 1 # (float) image crop fraction for classification (0.1-1), 1.0 means no crop, must be greater than 0.
+

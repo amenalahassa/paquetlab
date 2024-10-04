@@ -1,4 +1,6 @@
 x_env/
+y_env/
+jobs/
 workspace/datasets/
 workspace/jupiter_env/
 workspace/repos/
@@ -6,3 +8,7 @@ workspace/training_log/
 workspace/models/
 *.jar
 .*
+**/__pycache__/
+workspace/notebooks/models/
+*.mp3
+workspace/csv_files
