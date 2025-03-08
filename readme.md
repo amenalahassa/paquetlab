@@ -45,3 +45,6 @@ For fun, bellow is the mean calf face on whole set I used on my latest training 
 
 ## License
 This project is licensed under the MIT License. 
+
+## Acknowledgments
+All my gratitude to PaquetLab for giving me the opportunity to work on this project. 
